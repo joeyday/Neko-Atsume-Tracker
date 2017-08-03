@@ -2,10 +2,21 @@
 <database>
     <element label="Goody" max_length="40" name="x_10559_neko_goody" type="collection">
         <element choice="1" label="Currency" max_length="40" name="currency" type="choice">
-            <choice/>
+            <choice>
+                <element label="silver fish" sequence="10" value="silver fish"/>
+                <element label="gold fish" sequence="20" value="gold fish"/>
+            </choice>
         </element>
-        <element label="Name" max_length="254" name="name" type="string"/>
+        <element label="Description" max_length="1000" name="description" type="string"/>
+        <element label="Name" mandatory="true" max_length="254" name="name" type="string"/>
+        <element label="Poses" max_length="4000" name="poses" reference="x_10559_neko_pose" type="glide_list"/>
         <element label="Price" max_length="40" name="price" type="integer"/>
         <element label="Purchased" max_length="40" name="purchased" type="boolean"/>
+        <element choice="1" label="Size" max_length="40" name="size" type="choice">
+            <choice>
+                <element label="Small" sequence="10" value="Small"/>
+                <element label="Large" sequence="20" value="Large"/>
+            </choice>
+        </element>
     </element>
 </database>

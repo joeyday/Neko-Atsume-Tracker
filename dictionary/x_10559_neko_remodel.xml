@@ -2,9 +2,12 @@
 <database>
     <element label="Remodel" max_length="40" name="x_10559_neko_remodel" type="collection">
         <element choice="1" label="Currency" max_length="40" name="currency" type="choice">
-            <choice/>
+            <choice>
+                <element label="silver fish" sequence="10" value="silver fish"/>
+                <element label="gold fish" sequence="20" value="gold fish"/>
+            </choice>
         </element>
-        <element label="Name" max_length="254" name="name" type="string"/>
+        <element label="Name" mandatory="true" max_length="254" name="name" type="string"/>
         <element label="Price" max_length="40" name="price" type="integer"/>
         <element label="Purchased" max_length="40" name="purchased" type="boolean"/>
     </element>

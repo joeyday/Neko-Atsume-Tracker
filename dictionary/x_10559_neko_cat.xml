@@ -6,7 +6,7 @@
         <element label="Description" max_length="254" name="description" type="string"/>
         <element label="Memento" max_length="254" name="memento" type="string"/>
         <element label="Memento Description" max_length="1000" name="memento_description" type="string"/>
-        <element label="Name" max_length="254" name="name" type="string"/>
+        <element label="Name" mandatory="true" max_length="254" name="name" type="string"/>
         <element label="Personality" max_length="254" name="personality" type="string"/>
         <element label="Power Level" max_length="40" name="power_level" type="integer"/>
         <element label="Rare" max_length="40" name="rare" type="boolean"/>
