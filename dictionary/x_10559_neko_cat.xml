@@ -3,10 +3,10 @@
     <element label="Cat" max_length="40" name="x_10559_neko_cat" type="collection">
         <element label="Collected Memento" max_length="40" name="collected_memento" type="boolean"/>
         <element label="Collected Photo" max_length="40" name="collected_photo" type="boolean"/>
-        <element label="English Name" max_length="254" name="english_name" type="string"/>
-        <element label="Japanese Name" max_length="254" name="japanese_name" type="string"/>
-        <element label="Japanese Name Transliterated" max_length="254" name="japanese_name_transliterated" type="string"/>
+        <element label="Description" max_length="254" name="description" type="string"/>
         <element label="Memento" max_length="254" name="memento" type="string"/>
+        <element label="Memento Description" max_length="1000" name="memento_description" type="string"/>
+        <element label="Name" max_length="254" name="name" type="string"/>
         <element label="Personality" max_length="254" name="personality" type="string"/>
         <element label="Power Level" max_length="40" name="power_level" type="integer"/>
         <element label="Rare" max_length="40" name="rare" type="boolean"/>

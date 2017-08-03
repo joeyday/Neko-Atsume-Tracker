@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Goodies Cats Prefer" max_length="40" name="x_10559_neko_m2m_goodies_cats_preferred" type="collection">
+        <element label="Cat" max_length="32" name="cat" reference="x_10559_neko_cat" type="reference"/>
+        <element label="Goody" max_length="32" name="goody" reference="x_10559_neko_goody" type="reference"/>
+        <index name="index">
+            <element name="goody"/>
+        </index>
+        <index name="index2">
+            <element name="cat"/>
+        </index>
+    </element>
+</database>

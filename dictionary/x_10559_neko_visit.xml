@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Visit" max_length="40" name="x_10559_neko_visit" type="collection">
+        <element label="Cat" max_length="32" name="cat" reference="x_10559_neko_cat" type="reference"/>
+        <element choice="1" label="Currency" max_length="40" name="currency" type="choice">
+            <choice/>
+        </element>
+        <element label="Gift" max_length="40" name="gift" type="integer"/>
+        <element label="Goody" max_length="32" name="goody" reference="x_10559_neko_goody" type="reference"/>
+        <element label="Remodel" max_length="32" name="remodel" reference="x_10559_neko_remodel" type="reference"/>
+        <index name="index">
+            <element name="goody"/>
+        </index>
+        <index name="index2">
+            <element name="remodel"/>
+        </index>
+        <index name="index3">
+            <element name="cat"/>
+        </index>
+    </element>
+</database>

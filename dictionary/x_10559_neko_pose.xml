@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Pose" max_length="40" name="x_10559_neko_pose" type="collection">
+        <element label="Name" max_length="254" name="name" type="string"/>
+    </element>
+</database>
