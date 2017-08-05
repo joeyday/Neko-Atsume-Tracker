@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Remodel" max_length="40" name="x_10559_neko_remodel" type="collection">
+    <element label="Remodel" max_length="40" name="x_10559_neko_remodel" text_index="true" type="collection">
         <element choice="1" label="Currency" max_length="40" name="currency" type="choice">
             <choice>
                 <element label="silver fish" sequence="10" value="silver fish"/>
