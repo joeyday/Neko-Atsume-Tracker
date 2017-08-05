@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Cat" max_length="40" name="x_10559_neko_cat" type="collection">
+        <element label="Collected Butthole Picture" max_length="40" name="collected_butthole_picture" type="boolean"/>
+        <element label="Collected Loaf Picture" max_length="40" name="collected_loaf_picture" type="boolean"/>
         <element label="Collected Memento" max_length="40" name="collected_memento" type="boolean"/>
-        <element label="Collected Photo" max_length="40" name="collected_photo" type="boolean"/>
-        <element label="Description" max_length="254" name="description" type="string"/>
-        <element label="Memento" max_length="254" name="memento" type="string"/>
-        <element label="Memento Description" max_length="1000" name="memento_description" type="string"/>
-        <element label="Name" mandatory="true" max_length="254" name="name" type="string"/>
-        <element label="Personality" max_length="254" name="personality" type="string"/>
-        <element label="Power Level" max_length="40" name="power_level" type="integer"/>
+        <element label="Collected Picture" max_length="40" name="collected_picture" type="boolean"/>
+        <element label="Description" mandatory="true" max_length="254" name="description" read_only="true" type="string"/>
+        <element label="Memento" mandatory="true" max_length="254" name="memento" type="string"/>
+        <element label="Memento Description" mandatory="true" max_length="1000" name="memento_description" type="string"/>
+        <element display="true" label="Name" mandatory="true" max_length="254" name="name" read_only="true" type="string"/>
+        <element label="Personality" mandatory="true" max_length="254" name="personality" type="string"/>
+        <element label="Power Level" mandatory="true" max_length="40" name="power_level" type="integer"/>
         <element label="Rare" max_length="40" name="rare" type="boolean"/>
     </element>
 </database>

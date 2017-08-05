@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="collected_photo" label="Collected Photo" language="en" table="x_10559_neko_cat">
+    <sys_documentation element="collected_picture" label="Collected Picture" language="en" table="x_10559_neko_goody">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>collected_photo</element>
+            <element>collected_picture</element>
             <help/>
             <hint/>
-            <label>Collected Photo</label>
+            <label>Collected Picture</label>
             <language>en</language>
-            <name>x_10559_neko_cat</name>
-            <plural>Collected Photos</plural>
+            <name>x_10559_neko_goody</name>
+            <plural>Collected Pictures</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-08-02 23:27:15</sys_created_on>
-            <sys_id>26a9de9e4f500300dffb7d218110c744</sys_id>
+            <sys_created_on>2017-08-03 05:12:35</sys_created_on>
+            <sys_id>9db8afd64f140300dffb7d218110c742</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Collected Photo</sys_name>
+            <sys_name>Collected Picture</sys_name>
             <sys_package display_value="Neko Atsume Tracker" source="x_10559_neko">a105521e4f100300dffb7d218110c767</sys_package>
             <sys_policy/>
             <sys_scope display_value="Neko Atsume Tracker">a105521e4f100300dffb7d218110c767</sys_scope>
-            <sys_update_name>sys_documentation_x_10559_neko_cat_collected_photo_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_10559_neko_goody_collected_picture_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-02 23:27:15</sys_updated_on>
+            <sys_updated_on>2017-08-03 05:12:35</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

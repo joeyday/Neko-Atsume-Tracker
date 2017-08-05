@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <before>false</before>
+        <description/>
+        <flush_cache>false</flush_cache>
+        <name>Fix Cats Collected Pictures</name>
+        <run_once>true</run_once>
+        <script><![CDATA[var gr = new GlideRecord('x_10559_neko_cat');
+gr.query();
+
+while (gr.next()) {
+	var current = new GlideRecord('x_10559_neko_picture');
+	current.addQuery('cat', gr.getValue('sys_id'));
+	current.query();
+	
+	gr.collected_picture = false;
+	gr.collected_butthole_picture = false;
+	gr.collected_loaf_picture = false;
+
+	while (current.next()) {
+		gr.collected_picture = true;
+		if (current.pose.name == 'Butthole') gr.collected_butthole_picture = true;
+		if (current.pose.name == 'Loaf') gr.collected_loaf_picture = true;
+	}
+
+	if (gr.collected_picture.changes() || gr.collected_butthole_picture.changes() || gr.collected_loaf_picture.changes()) {
+		gr.update();
+	}
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-03 05:17:40</sys_created_on>
+        <sys_id>75d8efd64f140300dffb7d218110c7b2</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Fix Cats Collected Pictures</sys_name>
+        <sys_package display_value="Neko Atsume Tracker" source="x_10559_neko">a105521e4f100300dffb7d218110c767</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Neko Atsume Tracker">a105521e4f100300dffb7d218110c767</sys_scope>
+        <sys_update_name>sys_script_fix_75d8efd64f140300dffb7d218110c7b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-03 05:24:00</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

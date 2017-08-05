@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Goody" max_length="40" name="x_10559_neko_goody" type="collection">
+        <element label="Collected Picture" max_length="40" name="collected_picture" type="boolean"/>
         <element choice="1" label="Currency" max_length="40" name="currency" type="choice">
             <choice>
                 <element label="silver fish" sequence="10" value="silver fish"/>
