@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Food" max_length="40" name="x_10559_neko_food" type="collection">
+        <element choice="1" label="Currency" max_length="40" name="currency" type="choice">
+            <choice>
+                <element label="silver fish" sequence="10" value="silver fish"/>
+                <element label="gold fish" sequence="20" value="gold fish"/>
+            </choice>
+        </element>
+        <element label="Goodies Description" max_length="1000" name="goodies_description" type="string"/>
+        <element display="true" label="Name" max_length="254" name="name" type="string"/>
+        <element label="Price" max_length="40" name="price" type="integer"/>
+        <element label="Shop Description" max_length="1000" name="shop_description" type="string"/>
+    </element>
+</database>

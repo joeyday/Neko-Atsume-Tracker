@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Foods Cats Prefer" max_length="40" name="x_10559_neko_m2m_foods_cats" type="collection">
+        <element label="Cat" max_length="32" name="cat" reference="x_10559_neko_cat" type="reference"/>
+        <element label="Food" max_length="32" name="food" reference="x_10559_neko_food" type="reference"/>
+        <index name="index">
+            <element name="cat"/>
+        </index>
+        <index name="index2">
+            <element name="food"/>
+        </index>
+    </element>
+</database>

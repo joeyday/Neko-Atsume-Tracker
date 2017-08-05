@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Neko Atsume Tracker">f958169e4f500300dffb7d218110c767</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="x_10559_neko_visit">food=418b380b4f100300dffb7d218110c712^remodel=e689a21a4f900300dffb7d218110c7f0^EQ<item display_table="x_10559_neko_food" display_value="Ritzy Bits" endquery="false" field="food" goto="false" newquery="false" operator="=" or="false" value="418b380b4f100300dffb7d218110c712"/>
+            <item display_table="x_10559_neko_remodel" display_value="Cafe Style" endquery="false" field="remodel" goto="false" newquery="false" operator="=" or="false" value="e689a21a4f900300dffb7d218110c7f0"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>NEW</link_type>
+        <map_page/>
+        <mobile_title>210</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_10559_neko_visit</name>
+        <order>210</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-05 02:02:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5b5015474f500300dffb7d218110c71a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Track Ritzy Bitz / Cafe Style Visit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Neko Atsume Tracker" source="x_10559_neko">a105521e4f100300dffb7d218110c767</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Neko Atsume Tracker">a105521e4f100300dffb7d218110c767</sys_scope>
+        <sys_update_name>sys_app_module_5b5015474f500300dffb7d218110c71a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-05 02:02:26</sys_updated_on>
+        <timeline_page/>
+        <title>Track Ritzy Bitz / Cafe Style Visit</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

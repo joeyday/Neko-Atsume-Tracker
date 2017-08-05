@@ -15,7 +15,7 @@
         <mobile_title>Visits</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_10559_neko_visit</name>
-        <order>210</order>
+        <order>290</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -28,7 +28,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0f20a2d24f900300dffb7d218110c738</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>All Visits</sys_name>
         <sys_overrides/>
         <sys_package display_value="Neko Atsume Tracker" source="x_10559_neko">a105521e4f100300dffb7d218110c767</sys_package>
@@ -36,7 +36,7 @@
         <sys_scope display_value="Neko Atsume Tracker">a105521e4f100300dffb7d218110c767</sys_scope>
         <sys_update_name>sys_app_module_0f20a2d24f900300dffb7d218110c738</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-08-03 00:01:17</sys_updated_on>
+        <sys_updated_on>2017-08-05 02:00:54</sys_updated_on>
         <timeline_page/>
         <title>All Visits</title>
         <uncancelable>false</uncancelable>
