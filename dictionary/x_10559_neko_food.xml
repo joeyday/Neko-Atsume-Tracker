@@ -11,5 +11,6 @@
         <element display="true" label="Name" max_length="254" name="name" type="string"/>
         <element label="Price" max_length="40" name="price" type="integer"/>
         <element label="Shop Description" max_length="1000" name="shop_description" type="string"/>
+        <element label="Time (Hours)" max_length="40" name="time" type="integer"/>
     </element>
 </database>
