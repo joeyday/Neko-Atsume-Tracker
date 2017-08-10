@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Goody Feeding" max_length="40" name="x_10559_neko_goody_feeding" type="collection">
+        <element label="Feeding" max_length="32" name="feeding" reference="x_10559_neko_feeding" type="reference"/>
+        <element label="GFPH" max_length="20" name="gfph" type="decimal"/>
+        <element label="Gold Fish" max_length="40" name="gold_fish" type="integer"/>
+        <element label="Goody" max_length="32" name="goody" reference="x_10559_neko_goody" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="SFPH" max_length="20" name="sfph" type="decimal"/>
+        <element label="Silver Fish" max_length="40" name="silver_fish" type="integer"/>
+        <index name="index">
+            <element name="goody"/>
+        </index>
+        <index name="index2">
+            <element name="feeding"/>
+        </index>
+    </element>
+</database>

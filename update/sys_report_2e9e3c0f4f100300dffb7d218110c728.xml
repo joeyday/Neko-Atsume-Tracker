@@ -31,14 +31,13 @@
         <description/>
         <direction>minimize</direction>
         <display_column_lines>false</display_column_lines>
-        <display_grid>false</display_grid>
+        <display_grid>true</display_grid>
         <display_row_lines>false</display_row_lines>
         <donut_width_percent>50</donut_width_percent>
         <exp_report_attrs>true</exp_report_attrs>
         <field>goody</field>
         <field_list/>
-        <filter table="x_10559_neko_visit">currency=silver fish^EQ^GROUPBYgoody<item endquery="false" field="currency" goto="false" newquery="false" operator="=" or="false" value="silver fish"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <filter table="x_10559_neko_goody_feeding">^EQ^GROUPBYgoody<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
             <item endquery="false" field="" goto="false" newquery="false" operator="GROUPBY" or="false" value="goody"/>
         </filter>
         <from/>
@@ -86,21 +85,21 @@
         <show_legend_border>false</show_legend_border>
         <show_marker>true</show_marker>
         <show_zero>false</show_zero>
-        <sumfield>gift</sumfield>
+        <sumfield>sfph</sumfield>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-08-05 00:44:50</sys_created_on>
         <sys_id>2e9e3c0f4f100300dffb7d218110c728</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Average Silver Fish by Goody</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Average SFPH by Goody</sys_name>
         <sys_package display_value="Neko Atsume Tracker" source="x_10559_neko">a105521e4f100300dffb7d218110c767</sys_package>
         <sys_policy/>
         <sys_scope display_value="Neko Atsume Tracker">a105521e4f100300dffb7d218110c767</sys_scope>
         <sys_update_name>sys_report_2e9e3c0f4f100300dffb7d218110c728</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-08-05 00:44:50</sys_updated_on>
-        <table>x_10559_neko_visit</table>
-        <title>Average Silver Fish by Goody</title>
+        <sys_updated_on>2017-08-09 21:58:03</sys_updated_on>
+        <table>x_10559_neko_goody_feeding</table>
+        <title>Average SFPH by Goody</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>

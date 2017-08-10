@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <application display_value="Neko Atsume Tracker">f958169e4f500300dffb7d218110c767</application>
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter table="x_10559_neko_visit">food=117b380b4f100300dffb7d218110c760^remodel=e689a21a4f900300dffb7d218110c7f0^EQ<item display_table="x_10559_neko_food" display_value="Thrifty Bits" endquery="false" field="food" goto="false" newquery="false" operator="=" or="false" value="117b380b4f100300dffb7d218110c760"/>
+        <filter table="x_10559_neko_visit">food=117b380b4f100300dffb7d218110c760^remodel=e689a21a4f900300dffb7d218110c7f0^EQ<item display_table="x_10559_neko_food" display_value="Thrifty Bitz" endquery="false" field="food" goto="false" newquery="false" operator="=" or="false" value="117b380b4f100300dffb7d218110c760"/>
             <item display_table="x_10559_neko_remodel" display_value="Cafe Style" endquery="false" field="remodel" goto="false" newquery="false" operator="=" or="false" value="e689a21a4f900300dffb7d218110c7f0"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f3b119474f500300dffb7d218110c721</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Track Thrifty Bitz / Cafe Style Visit</sys_name>
         <sys_overrides/>
         <sys_package display_value="Neko Atsume Tracker" source="x_10559_neko">a105521e4f100300dffb7d218110c767</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="Neko Atsume Tracker">a105521e4f100300dffb7d218110c767</sys_scope>
         <sys_update_name>sys_app_module_f3b119474f500300dffb7d218110c721</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-08-05 02:08:29</sys_updated_on>
+        <sys_updated_on>2017-08-10 04:12:39</sys_updated_on>
         <timeline_page/>
         <title>Track Thrifty Bitz / Cafe Style Visit</title>
         <uncancelable>false</uncancelable>

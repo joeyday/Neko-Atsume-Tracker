@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_related sys_domain="global" table="x_10559_neko_goody_feeding" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Goody Feeding - Default view" name="x_10559_neko_goody_feeding" related_list="NULL" sys_domain="global" view="Default view">e5aefd604fe40300dffb7d218110c71b</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_10559_neko_visit.goody_feeding</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-09 21:15:33</sys_created_on>
+            <sys_id>65aefd604fe40300dffb7d218110c71c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-09 21:15:33</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Goody Feeding - Default view</calculated_name>
+            <filter/>
+            <name>x_10559_neko_goody_feeding</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-09 21:15:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e5aefd604fe40300dffb7d218110c71b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Goody Feeding - Default view</sys_name>
+            <sys_package display_value="Neko Atsume Tracker" source="x_10559_neko">a105521e4f100300dffb7d218110c767</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Neko Atsume Tracker">a105521e4f100300dffb7d218110c767</sys_scope>
+            <sys_update_name>sys_ui_related_x_10559_neko_goody_feeding_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-09 21:15:33</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

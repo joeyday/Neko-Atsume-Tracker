@@ -2,7 +2,7 @@
 <database>
     <element label="Picture" max_length="40" name="x_10559_neko_picture" type="collection">
         <element label="Cat" mandatory="true" max_length="32" name="cat" reference="x_10559_neko_cat" type="reference"/>
-        <element label="Goody" mandatory="true" max_length="32" name="goody" reference="x_10559_neko_goody" type="reference"/>
+        <element label="Goody" max_length="32" name="goody" reference="x_10559_neko_goody" type="reference"/>
         <element dynamic_creation="true" dynamic_creation_script="current.name = value;&#13;&#10;current.insert();" label="Pose" max_length="32" name="pose" reference="x_10559_neko_pose" type="reference"/>
         <index name="index">
             <element name="goody"/>

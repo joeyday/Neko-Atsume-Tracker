@@ -3,17 +3,31 @@
     <sys_ui_related sys_domain="global" table="x_10559_neko_feeding" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Feeding - Default view" name="x_10559_neko_feeding" related_list="NULL" sys_domain="global" view="Default view">78d0e23b4f100300dffb7d218110c7d9</list_id>
+            <list_id display_value="Feeding - Default view" name="x_10559_neko_feeding" related_list="NULL" sys_domain="global" view="Default view">aa7c0a684fe40300dffb7d218110c757</list_id>
             <order_by/>
             <position>0</position>
+            <related_list>x_10559_neko_goody_feeding.feeding</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-09 22:15:57</sys_created_on>
+            <sys_id>667c0a684fe40300dffb7d218110c758</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-09 22:15:57</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Feeding - Default view" name="x_10559_neko_feeding" related_list="NULL" sys_domain="global" view="Default view">aa7c0a684fe40300dffb7d218110c757</list_id>
+            <order_by/>
+            <position>1</position>
             <related_list>x_10559_neko_visit.feeding</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-08-07 15:49:25</sys_created_on>
-            <sys_id>f4d0e23b4f100300dffb7d218110c7da</sys_id>
+            <sys_created_on>2017-08-09 22:15:57</sys_created_on>
+            <sys_id>6e7c0a684fe40300dffb7d218110c758</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-07 15:49:25</sys_updated_on>
+            <sys_updated_on>2017-08-09 22:15:57</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Feeding - Default view</calculated_name>
@@ -24,10 +38,10 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-08-07 15:49:25</sys_created_on>
+            <sys_created_on>2017-08-09 22:15:57</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>78d0e23b4f100300dffb7d218110c7d9</sys_id>
+            <sys_id>aa7c0a684fe40300dffb7d218110c757</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Feeding - Default view</sys_name>
             <sys_package display_value="Neko Atsume Tracker" source="x_10559_neko">a105521e4f100300dffb7d218110c767</sys_package>
@@ -35,7 +49,7 @@
             <sys_scope display_value="Neko Atsume Tracker">a105521e4f100300dffb7d218110c767</sys_scope>
             <sys_update_name>sys_ui_related_x_10559_neko_feeding_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-07 15:49:25</sys_updated_on>
+            <sys_updated_on>2017-08-09 22:15:57</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

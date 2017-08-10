@@ -2,7 +2,7 @@
 <record_update table="sys_report_users_groups">
     <sys_report_users_groups action="INSERT_OR_UPDATE">
         <group_id/>
-        <report_id display_value="Average Gold Fish by Goody">b6ce7c0f4f100300dffb7d218110c79c</report_id>
+        <report_id display_value="Average GFPH by Goody">b6ce7c0f4f100300dffb7d218110c79c</report_id>
         <sys_class_name>sys_report_users_groups</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-08-05 00:45:40</sys_created_on>
