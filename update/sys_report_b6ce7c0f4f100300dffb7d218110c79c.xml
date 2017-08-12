@@ -37,7 +37,9 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field>goody</field>
         <field_list/>
-        <filter table="x_10559_neko_goody_feeding">^EQ^GROUPBYgoody<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <filter table="x_10559_neko_visit">currency=gold fish^goodyISNOTEMPTY^EQ^GROUPBYgoody<item endquery="false" field="currency" goto="false" newquery="false" operator="=" or="false" value="gold fish"/>
+            <item endquery="false" field="goody" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
             <item endquery="false" field="" goto="false" newquery="false" operator="GROUPBY" or="false" value="goody"/>
         </filter>
         <from/>
@@ -62,7 +64,7 @@
         <map_source/>
         <orderby_list/>
         <other_threshold>-2</other_threshold>
-        <others>true</others>
+        <others>false</others>
         <page_hdrftr/>
         <pivot_expanded>true</pivot_expanded>
         <report_drilldown/>
@@ -85,21 +87,21 @@
         <show_legend_border>false</show_legend_border>
         <show_marker>true</show_marker>
         <show_zero>false</show_zero>
-        <sumfield>gfph</sumfield>
+        <sumfield>gift</sumfield>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-08-05 00:45:40</sys_created_on>
         <sys_id>b6ce7c0f4f100300dffb7d218110c79c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Average GFPH by Goody</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Average Gold Fish per Visit by Goody</sys_name>
         <sys_package display_value="Neko Atsume Tracker" source="x_10559_neko">a105521e4f100300dffb7d218110c767</sys_package>
         <sys_policy/>
         <sys_scope display_value="Neko Atsume Tracker">a105521e4f100300dffb7d218110c767</sys_scope>
         <sys_update_name>sys_report_b6ce7c0f4f100300dffb7d218110c79c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-08-09 21:57:07</sys_updated_on>
-        <table>x_10559_neko_goody_feeding</table>
-        <title>Average GFPH by Goody</title>
+        <sys_updated_on>2017-08-11 21:06:22</sys_updated_on>
+        <table>x_10559_neko_visit</table>
+        <title>Average Gold Fish per Visit by Goody</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>

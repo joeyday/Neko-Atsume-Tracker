@@ -2,19 +2,19 @@
 <record_update table="sys_report_users_groups">
     <sys_report_users_groups action="INSERT_OR_UPDATE">
         <group_id/>
-        <report_id display_value="Average GFPH by Goody (Sashimi)">c7e52b604fa80300dffb7d218110c771</report_id>
+        <report_id display_value="Average GFPH by Goody">d2cf84114fa00300dffb7d218110c7e4</report_id>
         <sys_class_name>sys_report_users_groups</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-08-10 04:46:44</sys_created_on>
-        <sys_id>4fe52b604fa80300dffb7d218110c771</sys_id>
+        <sys_created_on>2017-08-11 21:06:37</sys_created_on>
+        <sys_id>5acf84114fa00300dffb7d218110c7e4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>c7e52b604fa80300dffb7d218110c771</sys_name>
+        <sys_name>d2cf84114fa00300dffb7d218110c7e4</sys_name>
         <sys_package display_value="Neko Atsume Tracker" source="x_10559_neko">a105521e4f100300dffb7d218110c767</sys_package>
         <sys_policy/>
         <sys_scope display_value="Neko Atsume Tracker">a105521e4f100300dffb7d218110c767</sys_scope>
-        <sys_update_name>sys_report_users_groups_4fe52b604fa80300dffb7d218110c771</sys_update_name>
+        <sys_update_name>sys_report_users_groups_5acf84114fa00300dffb7d218110c7e4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-08-10 04:46:44</sys_updated_on>
+        <sys_updated_on>2017-08-11 21:06:37</sys_updated_on>
         <user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user_id>
     </sys_report_users_groups>
 </record_update>
