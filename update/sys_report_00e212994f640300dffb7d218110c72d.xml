@@ -2,7 +2,7 @@
 <record_update table="sys_report">
     <sys_report action="INSERT_OR_UPDATE">
         <additional_groupby/>
-        <aggregate>AVG</aggregate>
+        <aggregate>COUNT</aggregate>
         <axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color>
         <axis_min_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</axis_min_color>
         <bar_unstack>false</bar_unstack>
@@ -30,15 +30,16 @@
         <decimal_precision>2</decimal_precision>
         <description/>
         <direction>minimize</direction>
-        <display_column_lines>true</display_column_lines>
+        <display_column_lines>false</display_column_lines>
         <display_grid>false</display_grid>
-        <display_row_lines>true</display_row_lines>
+        <display_row_lines>false</display_row_lines>
         <donut_width_percent>50</donut_width_percent>
         <exp_report_attrs>true</exp_report_attrs>
-        <field>sys_created_on</field>
+        <field>cat</field>
         <field_list/>
-        <filter table="x_10559_neko_goody_feeding">feeding.food_stolen=false^GROUPBYsys_created_on<item endquery="false" field="feeding.food_stolen" goto="false" newquery="false" operator="=" or="false" value="false"/>
-            <item endquery="false" field="" goto="false" newquery="false" operator="GROUPBY" or="false" value="sys_created_on"/>
+        <filter table="x_10559_neko_visit">feedingISNOTEMPTY^feeding.food_stolen=false^GROUPBYcat<item endquery="false" field="feeding" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="feeding.food_stolen" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="GROUPBY" or="false" value="cat"/>
         </filter>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -61,7 +62,7 @@
         <map display_value="World">93b8a3a2d7101200bd4a4ebfae61033a</map>
         <map_source/>
         <orderby_list/>
-        <other_threshold>-2</other_threshold>
+        <other_threshold>-1</other_threshold>
         <others>false</others>
         <page_hdrftr/>
         <pivot_expanded>true</pivot_expanded>
@@ -76,7 +77,7 @@
         <score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color>
         <set_color/>
         <show_chart_border>false</show_chart_border>
-        <show_chart_data_label>true</show_chart_data_label>
+        <show_chart_data_label>false</show_chart_data_label>
         <show_chart_title>report</show_chart_title>
         <show_chart_total>false</show_chart_total>
         <show_empty>false</show_empty>
@@ -84,22 +85,22 @@
         <show_legend>true</show_legend>
         <show_legend_border>false</show_legend_border>
         <show_marker>true</show_marker>
-        <show_zero>true</show_zero>
-        <sumfield>sfph</sumfield>
+        <show_zero>false</show_zero>
+        <sumfield>cat...</sumfield>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-08-11 21:14:03</sys_created_on>
-        <sys_id>1f7110514fa00300dffb7d218110c7ff</sys_id>
+        <sys_created_on>2017-08-12 06:39:21</sys_created_on>
+        <sys_id>00e212994f640300dffb7d218110c72d</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Average SFPH by Goody by Food</sys_name>
+        <sys_name>Data Coverage (Visits)</sys_name>
         <sys_package display_value="Neko Atsume Tracker" source="x_10559_neko">a105521e4f100300dffb7d218110c767</sys_package>
         <sys_policy/>
         <sys_scope display_value="Neko Atsume Tracker">a105521e4f100300dffb7d218110c767</sys_scope>
-        <sys_update_name>sys_report_1f7110514fa00300dffb7d218110c7ff</sys_update_name>
+        <sys_update_name>sys_report_00e212994f640300dffb7d218110c72d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-08-12 18:14:28</sys_updated_on>
-        <table>x_10559_neko_goody_feeding</table>
-        <title>Average SFPH by Goody by Food</title>
+        <sys_updated_on>2017-08-12 18:15:56</sys_updated_on>
+        <table>x_10559_neko_visit</table>
+        <title>Data Coverage (Visits)</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>

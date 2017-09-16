@@ -8,11 +8,11 @@
                 <element label="gold fish" sequence="20" value="gold fish"/>
             </choice>
         </element>
-        <element label="Feeding" max_length="32" name="feeding" reference="x_10559_neko_feeding" type="reference"/>
+        <element label="Feeding" max_length="32" name="feeding" reference="x_10559_neko_feeding" reference_cascade_rule="delete" type="reference"/>
         <element label="Food" max_length="32" name="food" reference="x_10559_neko_food" type="reference"/>
         <element label="Gift" mandatory="true" max_length="40" name="gift" type="integer"/>
         <element label="Goody" max_length="32" name="goody" reference="x_10559_neko_goody" type="reference"/>
-        <element label="Goody Feeding" max_length="32" name="goody_feeding" reference="x_10559_neko_goody_feeding" type="reference"/>
+        <element label="Goody Feeding" max_length="32" name="goody_feeding" reference="x_10559_neko_goody_feeding" reference_cascade_rule="delete" type="reference"/>
         <element label="Remodel" max_length="32" name="remodel" reference="x_10559_neko_remodel" type="reference"/>
         <index name="index">
             <element name="goody_feeding"/>
